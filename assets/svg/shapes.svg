@@ -1,0 +1,11 @@
+import { createElementVNode as _createElementVNode, openBlock as _openBlock, createElementBlock as _createElementBlock, createStaticVNode as _createStaticVNode } from "vue"
+
+const _hoisted_1 = /*#__PURE__*/_createStaticVNode("<defs><path id=\"rectangle\" d=\"M0 0h100v100H0z\" style=\"vector-effect:non-scaling-stroke;\"></path><path id=\"triangle\" d=\"m50 0 50 100H0z\" style=\"vector-effect:non-scaling-stroke;\"></path><path id=\"star\" d=\"m51 1.618 11.424 35.159.112.345h37.331L69.96 58.852l-.294.213.112.345L81.202 94.57l-29.908-21.73-.294-.213-.294.214-29.908 21.729L32.222 59.41l.112-.345-.294-.214L2.134 37.122h37.331l.112-.345L51 1.618Z\" style=\"vector-effect:non-scaling-stroke;\"></path><path id=\"line_2d\" d=\"M0 0h100v95H0z\" style=\"vector-effect:non-scaling-stroke;\"></path><path id=\"arrow_2d\" fill=\"none\" stroke-linejoin=\"round\" d=\"M0 50h100L90 80m10-30L90 20\" style=\"vector-effect:non-scaling-stroke;\"></path><circle id=\"ellipse\" cx=\"50\" cy=\"50\" r=\"50\" style=\"vector-effect:non-scaling-stroke;\"></circle><rect id=\"rounded_rectangle\" width=\"100\" height=\"100\" x=\"0\" y=\"0\" rx=\"10\" style=\"vector-effect:non-scaling-stroke;\"></rect></defs>", 1)
+const _hoisted_2 = [
+  _hoisted_1
+]
+
+export function render(_ctx, _cache) {
+  return (_openBlock(), _createElementBlock("svg", null, _hoisted_2))
+}
+export default { render: render }
